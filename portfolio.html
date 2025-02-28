@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oasis</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Gothic+A1:wght@400;500;600;700;800;900&
+    display=swap" rel="stylesheet">
+
+     <link rel="stylesheet" href="https://use.typekit.net/dsi8xpu.css">  <!-- 어도비 폰트 -->
+
+
+    <script src="scripts.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js"></script>
+    <script src="logo.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-container">
+            <a href="portfolio.html">
+                <div id="logo"></div>
+            </a>
+        </div>
+            
+        <div class="navContainer">
+            <ul class="nav">
+                <li class="nav-eng active" style=" color:#000;"><a href="portfolio.html">Portfolio</a></li>
+             
+                    <div class="category-div">|</div>
+                <li class="nav-eng active"><a href="cv.html">CV</a></li>
+               
+            </ul>
+        </div>
+
+
+        <div class="category-box">
+            <div class="category" style=" color: #000; "><a href="portfolio.html">All</a></div>
+                <!-- <div class="category-div">-</div> -->
+            <div class="category"><a href="graphic.html">Graphic</a></div>
+                <!-- <div class="category-div">-</div> -->
+            <div class="category"><a href="editorial.html">Editorial</a></div>
+                <!-- <div class="category-div">-</div> -->
+            <div class="category"><a href="motion.html">Motion</a></div>
+                <!-- <div class="category-div">-</div> -->
+            <div class="category"><a href="identity.html">Identity</a></div>
+                <!-- <div class="category-div">-</div> -->
+            <div class="category"><a href="web.html">Web</a></div>    
+                <!-- <div class="category-div">-</div> -->
+            <div class="category"><a href="interaction.html">Interaction</a></div>
+                <!-- <div class="category-div">-</div> -->
+            <div class="category"><a href="installation.html">Installation</a></div>
+                <!-- <div class="category-div">-</div> -->
+            <div class="category"><a href="photography.html">Photography</a></div>  
+        </div>
+
+
+
+        <div class="lang">
+            <button id="toggleButton" onclick="toggleLanguage()">KOR</button>
+        </div>
+    </header>
+
+
+
+
+
+
+
+    
+
+
+    <div class="container"> 
+
+
+        <div class="item">
+            <a href="p1.html"><img src="phase shifter.png" loading="lazy"></a>
+            <p class="title-kor">〈수동위상변환장치〉</p>
+            <p class="title-eng active">〈Manual Phase Shifter〉</p>
+            <div class="tag-box">
+                <div class="tag"><p>#interaction</p></div>
+                <div class="tag"><p>#installation</p></div>
+                <div class="tag"><p>#graphic</p></div>
+            </div>
+        </div> 
+
+
+        <div class="item">
+            <a href="p1.html"><img src="support.png" loading="lazy"></a>
+            <p class="title-kor">[기본소득당]<br>오키도키 서포터즈!</p>
+            <p class="title-eng active">[Basic income party]<br>OKDK Suppoerters</p>
+            <div class="tag-box">
+                <div class="tag"><p>#graphic</p></div>
+                <div class="tag"><p>#identity</p></div>
+            </div>
+        </div> 
+
+
+       <div class="item">
+            <a href="p1.html"><img src="ru_3.png" loading="lazy"></a>   
+            <p class="title-kor">개혁연합 아이덴티티</p>
+            <p class="title-eng active">Reform Union identity</p>
+            <div class="tag-box">
+                <div class="tag"><p>#identity</p></div>
+                <div class="tag"><p>#motion</p></div>
+            </div>
+        </div> 
+
+
+        <div class="item">
+            <a href="p1.html"><img src="dp3.jpg" loading="lazy"></a>
+            <p class="title-kor">[기본소득당]<br>대파 퍼포먼스 피켓</p>
+            <p class="title-eng active">[Basic Income Party]<br>green onion performance picket</p>
+            <div class="tag-box">
+                <div class="tag"><p>#graphic</p></div>
+            </div>            
+        </div>     
+
+
+        <div class="item">
+            <a href="p1.html"><img src="w3.png" loading="lazy"></a>   
+            <p class="title-kor">룩북</p>
+            <p class="title-eng active">small lookbook of my...</p>
+            <div class="tag-box">
+                <div class="tag"><p>#editorial</p></div>
+                <div class="tag"><p>#photography</p></div>
+            </div>
+        </div> 
+
+
+        <div class="item">
+            <a href="p1.html"><img src="gd3.png" loading="lazy"></a>
+            <p class="title-kor">메가스터디 러셀 - 고도연<br>〈문학의도〉</p>
+            <p class="title-eng active">Megastudy Russel - Doyun Ko<br>〈the path of literature〉</p>
+            <div class="tag-box">
+                <div class="tag"><p>#editorial</p></div>
+            </div>   
+        </div> 
+
+
+        <div class="item">
+            <a href="p1.html"><img src="fan.png" loading="lazy"></a>
+                <p class="title-kor">[기본소득당]<br>2024 서울퀴어퍼레이드 부채</p>
+                <p class="title-eng active">[Basic Income Party]<br> 2024 Seoul Queer Parade - fan</p>
+            <div class="tag-box">
+                <div class="tag"><p>#graphic</p></div>
+            </div>
+        </div> 
+
+
+        <div class="item">
+            <a href="p1.html"><img src="qp.gif" loading="lazy"></a>
+            <p class="title-kor">[기본소득당]<br>2024 서울퀴어퍼레이드 부스 포스터</p>
+            <p class="title-eng active">[Basic Income Party]<br> 2024 Seoul Queer Parade - poster</p>
+            <div class="tag-box">
+                <div class="tag"><p>#graphic</p></div>
+                <div class="tag"><p>#motion</p></div>
+            </div>  
+        </div> 
+
+
+       <div class="item">
+            <a href="p1.html"><img src="sedaff.gif" loading="lazy"></a>   
+            <p class="title-kor">제6회 서울무용영화제<br>모션 포스터</p>
+            <p class="title-eng active">6th Seoul Dance Film Festival <br>motion Poster</p>
+            <div class="tag-box">
+                <div class="tag"><p>#graphic</p></div>
+                <div class="tag"><p>#motion</p></div>
+            </div>
+        </div> 
+
+
+
+
+
+       <div class="item">
+            <a href="p1.html"><img src="neworder.png" loading="lazy"></a>   
+            <p class="title-kor">[새로운 질서]<br>장소 아카이빙</p>
+            <p class="title-eng active">[New Order]<br>place archiving</p>
+            <div class="tag-box">
+                <div class="tag"><p>#web</p></div>
+            </div>
+        </div> 
+
+       <div class="item">
+            <a href="p1.html"><img src="homeless.png" loading="lazy"></a>   
+            <p class="title-kor"></p>
+            <p class="title-eng active">Homeless 3rd concert - Chrome</p>
+            <div class="tag-box">
+                <div class="tag"><p>#graphic</p></div>
+                <div class="tag"><p>#motion</p></div>
+            </div>
+        </div> 
+
+
+       <div class="item">
+            <a href="p1.html"><img src="foundation.gif" loading="lazy"></a>   
+            <p class="title-kor">기초디자인</p>
+            <p class="title-eng active">foundation design</p>
+            <div class="tag-box">
+                <div class="tag"><p>#graphic</p></div>
+                <div class="tag"><p>#motion</p></div>
+            </div>
+        </div> 
+
+
+       <div class="item">
+            <a href="p1.html"><img src="ornaments.gif" loading="lazy"></a>   
+            <p class="title-kor">오너먼츠</p>
+            <p class="title-eng active">ornaments</p>
+            <div class="tag-box">
+                <div class="tag"><p>#graphic</p></div>
+                <div class="tag"><p>#motion</p></div>
+            </div>
+        </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>  <!-- 컨테이너 끝 -->
+
+
+
+    
+    <div class="footer1">
+        <p>ⓒ 2024 Hansem Kim</p>
+    </div>
+ 
+</body>
+</html>
